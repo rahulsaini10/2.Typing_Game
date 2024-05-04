@@ -1,0 +1,70 @@
+/* inside style.css */
+.highlight {
+    background-color: yellow;
+  }
+  
+  .error {
+    background-color: lightcoral;
+    border: red;
+  }
+
+  body {
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+
+/* Heading styling */
+h1 {
+    font-size: 32px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #007bff; /* Heading color */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px; /* Font size */
+    line-height: 1.5; /* Line height */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: 2px solid #007bff; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Width */
+    transition-duration: 0.4s; /* Transition duration */
+}
+
+/* Input focus styling */
+input[type="text"]:focus {
+    border-color: #0056b3; /* Darker blue border color */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #0056b3; /* Add shadow */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 15px 32px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor pointer */
+    transition-duration: 0.4s; /* Transition duration */
+}
+
+/* Button hover styling */
+button:hover {
+    background-color: #0056b3; /* Darker blue background color */
+}
+
+/* Button active styling */
+button:active {
+    box-shadow: 0 5px #0056b3; /* Add shadow on click */
+    transform: translateY(4px); /* Move button down on click */
+}
+
+
